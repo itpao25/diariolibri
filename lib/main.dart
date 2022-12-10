@@ -1,4 +1,4 @@
-import 'package:diariolibri/GuiSections/DiarioLibriMain.dart';
+import 'package:diariolibri/gui_sections/diariolibri_main.dart';
 import 'package:flutter/material.dart';
 
 void main() {
