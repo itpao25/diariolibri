@@ -1,3 +1,4 @@
+import 'package:diariolibri/GuiComponents/DrawerMain.dart';
 import 'package:flutter/material.dart';
 
 class DiarioLibri extends StatefulWidget {
@@ -24,6 +25,7 @@ class DiarioLibriState extends State<DiarioLibri> {
       appBar: AppBar(
         title: null,
       ),
+      drawer: DrawerMain(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
