@@ -25,7 +25,6 @@ class DiarioLibriState extends State<DiarioLibri> {
       appBar: AppBar(
         title: null,
       ),
-      drawer: Menu(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -44,7 +43,8 @@ class DiarioLibriState extends State<DiarioLibri> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
+      drawer: const Menu(),// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
